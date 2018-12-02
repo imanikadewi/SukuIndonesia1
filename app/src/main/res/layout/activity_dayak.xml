@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dayak" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textStyle="italic"
+                android:textSize="17sp"
+                android:textAlignment="gravity"
+                android:text="Suku Dayak (Ejaan Lama: Dajak atau Dyak) adalah nama yang oleh penjajah diberi kepada penghuni pedalaman pulau Borneo[14] yang mendiami Pulau Kalimantan (Brunei, Malaysia yang terdiri dari Sabah dan Sarawak, serta Indonesia yang terdiri dari Kalimantan Barat, Kalimantan Timur, Kalimantan Tengah, Kalimantan Utara, dan Kalimantan Selatan). Ada 5 suku atau 7 suku asli Kalimantan yaitu Melayu, Dayak, Banjar, Kutai, Paser, Berau dan Tidung Menurut sensus Badan Pusat Statistik Republik Indonesia tahun 2010, suku bangsa yang terdapat di Kalimantan Indonesia dikelompokan menjadi tiga yaitu suku Banjar, suku Dayak Indonesia (268 suku bangsa) dan suku asal Kalimantan lainnya (non Dayak dan non Banjar). Dahulu, budaya masyarakat Dayak adalah Budaya maritim atau bahari. Hampir semua nama sebutan orang Dayak mempunyai arti sebagai sesuatu yang berhubungan dengan perhuluan atau sungai, terutama pada nama-nama rumpun dan nama kekeluargaannya" />
+        </ScrollView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>

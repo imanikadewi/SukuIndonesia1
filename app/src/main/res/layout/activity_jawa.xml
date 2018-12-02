@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jawa" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="italic"
+                android:textSize="17sp"
+                android:text="Suku Jawa (Bahasa Jawa Ngoko: ꦮꦺꦴꦁꦗꦮ Wong Jawa, Krama: ꦠꦶꦪꦁꦗꦮꦶ Tiyang Jawi,Pegon: وونغ جاوه) merupakan suku bangsa terbesar di Indonesia yang berasal dari Jawa Tengah, Jawa Timur, dan Daerah Istimewa Yogyakarta.Setidaknya 41,7% penduduk Indonesia merupakan etnis Jawa. Sebelumnya suku Jawa berjumlah 47,05% pada tahun 1930 yang diadakan oleh pemerintahan kolonial Belanda pada waktu itu. Penurunan ini terjadi karena banyaknya orang Jawa yang menjadi bagian dari etnis setempat di beberapa daerah di Indonesia.Selain di ketiga provinsi tersebut, suku Jawa banyak bermukim di Lampung, Jakarta, Sumatera Utara, Riau, Sumatera Selatan, Banten dan Kalimantan Timur. Di Jawa Barat mereka banyak ditemukan di Kota Bekasi, Kabupaten Bekasi, Kabupaten Karawang, Cikampek, Bandung, Kabupaten Indramayu, Kabupaten Cirebon, dan Kota Cirebon.Suku Jawa juga memiliki sub-suku, seperti Suku Osing, Orang Samin, Suku Tengger, dan lain-lain. Selain itu, suku Jawa ada pula yang berada di negara New Caledoania dan Suriname, Amerika Selatan karena pada masa kolonial Belanda suku ini dibawa ke sana sebagai pekerja. Saat ini suku Jawa di Suriname menjadi salah satu suku terbesar disana dan dikenal sebagai Jawa Suriname." />
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>

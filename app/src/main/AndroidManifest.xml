@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dicoding.sukuindonesia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Suku Indonesia"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Asmat" />
+        <activity android:name=".Bali" />
+        <activity android:name=".Batak" />
+        <activity android:name=".Bugis" />
+        <activity android:name=".Dayak" />
+        <activity android:name=".Jawa"></activity>
+
+    </application>
+
+</manifest>

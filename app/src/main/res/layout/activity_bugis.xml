@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bugis" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textStyle="italic"
+                android:textSize="17sp"
+                android:textAlignment="gravity"
+                android:text="Suku Bugis merupakan kelompok etnik dengan wilayah asal Sulawesi Selatan.Penciri utama kelompok etnik ini adalah bahasa dan adat-istiadat, sehingga pendatang Melayu dan Minangkabau yang merantau ke Sulawesi sejak abad ke-15 sebagai tenaga administrasi dan pedagang di Kerajaan Gowa dan telah terakulturasi, juga dikategorikan sebagai orang Bugis.[2] Berdasarkan sensus penduduk Indonesia tahun 2000, populasi orang Bugis sebanyak sekitar enam juta jiwa. Kini orang-orang Bugis menyebar pula di berbagai provinsi Indonesia, seperti Sulawesi Tenggara, Sulawesi Tengah, Papua, DKI Jakarta, Kalimantan Timur, Kalimantan Selatan, Jambi, Riau, dan Kepulauan Riau.Disamping itu orang-orang Bugis juga banyak ditemukan di Malaysia dan Singapura yang telah beranak pinak dan keturunannya telah menjadi bagian dari negara tersebut. Karena jiwa perantau dari masyarakat Bugis, maka orang-orang Bugis sangat banyak yang pergi merantau ke mancanegara." />
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bali" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textStyle="italic"
+                android:textSize="17sp"
+                android:textAlignment="gravity"
+                android:text="Suku Bali (bahasa Bali: Anak Bali, Wong Bali, atau Krama Bali) adalah suku bangsa mayoritas di pulau Bali, yang menggunakan bahasa Bali dan mengikuti budaya Bali. Menurut hasil Sensus Penduduk 2010, ada kurang lebih 3,9 juta orang Bali di Indonesia.Sekitar 3,3 juta orang Bali tinggal di Provinsi Bali dan sisanya terdapat di Nusa Tenggara Barat, Sulawesi Tengah, Lampung, Bengkulu dan daerah penempatan transmigrasi asal Bali lainnya.Asal usul suku Bali terbagi ke dalam tiga periode atau gelombang migrasi: gelombang pertama terjadi sebagai akibat dari persebaran penduduk yang terjadi di Nusantara selama zaman prasejarah; gelombang kedua terjadi secara perlahan selama masa perkembangan agama Hindu di Nusantara;gelombang ketiga merupakan gelombang terakhir yang berasal dari Jawa,ketika Majapahit runtuh pada abad ke-15(seiring dengan Islamisasi yang terjadi di Jawa). Sejumlah rakyat Majapahit memilih untuk melestarikan kebudayaannya di Bali, sehingga membentuk sinkretisme antara kebudayaan Jawa klasik dengan tradisi asli Bali." />
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/balik"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.9"
+        android:background="@drawable/balik"
+        android:onClick="balik" />
+</RelativeLayout>
